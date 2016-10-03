@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Controlfile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MDMConfiguration>
+    <ServiceAddress>http://mdm.carparts-cat.com/service.svc</ServiceAddress>
+  </MDMConfiguration>
+  <CountryConfiguration>
+    <Language>IT</Language>
+    <Data>I</Data>
+    <Prices>I</Prices>
+    <Vehicle>I</Vehicle>
+  </CountryConfiguration>
+  <BDFConfiguration>
+    <DataPaths>
+      <string>C:\Program Files\TecAlliance\Catalogue\Data</string>
+    </DataPaths>
+  </BDFConfiguration>
+  <PDFDowndloadConfiguration>
+    <PDFFileFormat>2</PDFFileFormat>
+    <VersionPath>0</VersionPath>
+  </PDFDowndloadConfiguration>
+</Controlfile>
