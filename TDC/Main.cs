@@ -17,7 +17,7 @@ using TMDVD.DAL.BDF.CommonData;
 using TMDVD.DAL.BDF.DataType;
 using TMDVD.DataType.Common;
 using TMDVD.DataType.Export;
-using TMDVD.DataType.Interface;
+
 using DevExpress.XtraTreeList;
 using DevExpress.XtraTreeList.Columns;
 using DevExpress.XtraTreeList.Nodes;
@@ -196,6 +196,14 @@ namespace TDC
 			//bool bb = o4.IsValid();
 			//object fo5 = typeof(TMDVD.DAL.BDF.DataType.Security);//.GetField("dalMasterdata", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance);
 			//TMDVD.DAL.BDF.DataType.Security
+
+            if(en != null)
+            {
+                bsOEM.DataSource = en.OENumbers;
+
+                bsCross.DataSource = cnt.SearchArticleV1(en.OENumbers.First().OENbr);
+
+            }
 
 			if (en != null)
 			{

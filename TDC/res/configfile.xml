@@ -11,7 +11,7 @@
   </CountryConfiguration>
   <BDFConfiguration>
     <DataPaths>
-      <string>C:\Program Files\TecAlliance\Catalogue\Data</string>
+      <string>E:\TDC\Data</string>
     </DataPaths>
   </BDFConfiguration>
   <PDFDowndloadConfiguration>
